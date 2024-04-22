@@ -7,6 +7,7 @@ from config import ROOT_DIR
 class Vacancy:
     """Класс Vacancy, для работы с вакансиями (выгруженными из того или иного
     места)"""
+
     def __init__(self, name, salary_from, salary_to, employer, currency,
                  experience, schedule, employment, requirement, responsibility,
                  professional_roles, url):
